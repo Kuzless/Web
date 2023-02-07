@@ -12,11 +12,12 @@ html, body {
 }
 #header {
     user-select: none;
-    margin-top:-9px;
+    top: 0;
     height: 60px;
     background-color: black;
 }
-#content {
+#page1 {
+    background-color: rgba(0,0,0,1);
     padding: 10px;
 }
 #footer {
@@ -34,13 +35,33 @@ html, body {
     display:inline;
 }
 .title {
+    width: 540;
+    height: 200;
     font-family: Inter;
     font-style: italic;
     font-size: 48px;
     margin-left: 200px;
     margin-top: 144px;
+    margin-right: 112px;
+    float:left;
 }
-#header h2 {
+.titledesc {
+    width: 550px;
+    height: 80px;
+    font-family: Inter;
+    font-style: italic;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-top: 10px;
+    float:left;
+}
+.titleimage {
+    float: right;
+    margin-top: 52px;
+    width: 400px;
+    height: 500px;
+}
+h2 {
     user-select: none;
     font-family: Inter;
     font-style: italic;
@@ -52,10 +73,21 @@ html, body {
 }
 .sticky {
     position: fixed;
-    top: 7px;
     min-width: 1280px;
     width: 100%;
 }
 .sticky + #content {
     padding-top: 102px;
+}
+a:link {
+    color:none;
+    text-decoration: none;
+}
+a:visited {
+    color:none;
+    text-decoration: none;
+}
+a:active {
+    color:none;
+    text-decoration: none;
 }
