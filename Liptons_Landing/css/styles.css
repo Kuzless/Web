@@ -22,14 +22,12 @@ html, body {
     background-color: rgba(0,0,0,1);
     padding: 10px;
     margin-bottom: 10px;
+    width: 50%;
 }
 #footer {
 
 }
-.center {
-    color:black;
-    text-align: center;
-}
+
 .logo {
     user-select: none;
     font-size: 48px;
@@ -76,8 +74,11 @@ a.mainbutton {
     -moz-appearance: button;
     appearance: button;
     margin-top: 10px;
-    margin-left: 200px;
-    text-decoration: none;
+    margin-left: 220px;
+    text-align: center;
+    padding-top: 32px;
+    font-size: 24px;
+    color:black;
     background-color: #d5d818 !important; width: 288px; height: 64px; border-radius: 20px;
 }
 .sticky {
