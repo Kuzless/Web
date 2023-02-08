@@ -11,7 +11,7 @@
         <div id="header">
             <h1 class="logo">Sushi<span style="color:goldenrod">trip</span></h1>
             <h2><a href="#here1">Головна</a></h2>
-            <h2><a href="#header">Каталог</a></h2>
+            <h2><a href="#page2">Каталог</a></h2>
             <h2><a href="#header">Акції</a></h2>
             <h2><a href="#header">Відгуки</a></h2>
             <h2><a href="#header">Контакти</a></h2>
@@ -24,18 +24,53 @@
                     Отримайте замовлення за <span style="color:goldenrod">40 хвилин</span> від найкращих
                     кухарів міста з досвідом понад 10 років
                 </h3>
-                <a href="#here1" class="mainbutton">Перейти до каталогу</a>
+                <a href="#page2" class="mainbutton">Перейти до каталогу</a>
                 <h5>*безкоштовна доставка при замовлені від 400грн</h6>
             </div>
+            <img src="css/img/titlepage.png" class="titleimage">
         </div>
-        <img src="css/img/titlepage.png" class="titleimage">
-        <div>
-            <h1 class="title2" style="color:goldenrod">Каталог <br>Роли</h1>
-            <div class="testblock">
-                <div class="testblocki">HELLO WORLD</div>
+        
+        <div id="page2">
+            <h1 class="title2" style="color:goldenrod">Каталог</h1>
+            <div id="block1">
+                <img src="css/img/cat1.jpg" class="blockimg">
+                <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол "Каліфорнія"</span>
+                    <br>Склад: Вершковий сир,<br>Авокадо, Тобіко, Крабове<br>м'ясо
+                </div>
+                <div class="blockw">325гр</div>
+                <div class="blockprice">140грн</div>
+            </div>
+            <div id="block2">
+                <img src="css/img/cat2.jpg" class="blockimg">
+                <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол із сьомгою</span>
+                    <br>Склад: Сьомга
+                </div>
+                <div class="blockw">150гр</div>
+                <div class="blockprice">80грн</div>
+            </div>
+            <form id="nextpage" method="POST" onsubmit="return showDiv();">
+                <input type="submit" class="nextbutton" value="Перегорнути"/>
+            </form>
+            <div id="block3">
+                <img src="css/img/cat3.jpg" class="blockimg">
+                <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол із авокадо</span>
+                    <br>Склад: Авокадо, Вершковий сир
+                </div>
+                <div class="blockw">150гр</div>
+                <div class="blockprice">60грн</div>
+            </div>
+            <div id="block4">
+                <img src="css/img/cat4.jpg" class="blockimg">
+                <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол "Боніто"</span>
+                    <br>Склад: Сир філадельфія,<br>Сьомга, Авокадо, Огірок,<br>Стружка тунця
+                </div>
+                <div class="blockw">350гр</div>
+                <div class="blockprice">180грн</div>
             </div>
         </div>
+        
         <div id="footer"></div>
+        <script src="js/catalogue.js"></script>
         <script src="js/scroll.js"></script>
     </body>
 </html>
