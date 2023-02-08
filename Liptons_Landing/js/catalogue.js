@@ -1,3 +1,6 @@
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
 function showDiv() {
     if (document.getElementById('block1').style.display == "none") {
         document.getElementById('block1').style.display = "block";
