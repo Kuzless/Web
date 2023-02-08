@@ -9,6 +9,8 @@ html, body {
     background-color: black;
     min-height: 1000%;
     min-width: 1280px;
+    font-family: Inter;
+    font-style: italic;
 }
 #header {
     user-select: none;
@@ -19,14 +21,17 @@ html, body {
 #page1 {
     background-color: rgba(0,0,0,1);
     padding: 10px;
+    margin-bottom: 10px;
 }
 #footer {
 
 }
+.center {
+    color:black;
+    text-align: center;
+}
 .logo {
     user-select: none;
-    font-family: Inter;
-    font-style: italic;
     font-size: 48px;
     color: white;
     margin-left: 98px;
@@ -34,29 +39,35 @@ html, body {
     margin-right: 108px;
     display:inline;
 }
+.leftblock {
+    float: left;
+}
 .title {
     width: 540;
     height: 200;
-    font-family: Inter;
-    font-style: italic;
     font-size: 48px;
     margin-left: 200px;
     margin-top: 144px;
     margin-right: 112px;
-    float:left;
 }
+
+.title2 {
+    font-size: 48px;
+    margin-left: 601px;
+    margin-top: 90px;
+    margin-right: 112px;
+    text-align: center;
+}
+
 .titledesc {
-    width: 550px;
+    width: 540px;
     height: 80px;
-    font-family: Inter;
-    font-style: italic;
     font-size: 24px;
     margin-left: 200px;
     margin-top: 10px;
-    float:left;
 }
 .titleimage {
-    float: right;
+    float: left;
     margin-top: 52px;
     width: 400px;
     height: 500px;
@@ -66,13 +77,20 @@ float: left;
 }
 h2 {
     user-select: none;
-    font-family: Inter;
-    font-style: italic;
     font-size: 24px;
     color: white;
     bottom: 30;
     margin-right: 42px;
     display:inline;
+}
+a.mainbutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    margin-top: 10px;
+    margin-left: 200px;
+    text-decoration: none;
+    background-color: #d5d818 !important; width: 288px; height: 64px; border-radius: 20px;
 }
 .sticky {
     position: fixed;
