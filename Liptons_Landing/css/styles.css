@@ -11,23 +11,28 @@ html, body {
     min-width: 1280px;
     font-family: Inter;
     font-style: italic;
+    user-select: none;
 }
 #header {
-    user-select: none;
+    position: fixed;
     top: 0;
-    height: 60px;
+    width: 100;
+    margin-bottom: 60px;
     background-color: black;
+    z-index: 3;
 }
 #page1 {
     background-color: rgba(0,0,0,1);
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-right: 300px;
+    position: relative;
+    z-index: 2;
 }
 #footer {
 
 }
-
 .logo {
     user-select: none;
     font-size: 48px;
@@ -41,14 +46,10 @@ html, body {
     float: left;
 }
 .title {
-    width: 540;
-    height: 200;
+    width: 540px;
     font-size: 48px;
-    margin-left: 200px;
-    margin-top: 144px;
-    margin-right: 112px;
+    position: absolute;
 }
-
 .title2 {
     font-size: 48px;
     margin-left: 601px;
@@ -56,13 +57,12 @@ html, body {
     margin-right: 112px;
     text-align: center;
 }
-
 .titledesc {
+    position: absolute;
     width: 540px;
     height: 80px;
     font-size: 24px;
-    margin-left: 200px;
-    margin-top: 10px;
+    margin-top: 220px;
 }
 .titleimage {
     float: left;
@@ -73,6 +73,10 @@ html, body {
 div {
 float: left;
 }
+#page1 h5 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
 h2 {
     user-select: none;
     font-size: 24px;
@@ -82,24 +86,17 @@ h2 {
     display:inline;
 }
 a.mainbutton {
+    float: left;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    margin-top: 10px;
-    margin-left: 220px;
+    margin-top: 330px;
+    margin-left: 20px;
     text-align: center;
     padding-top: 32px;
-    font-size: 24px;
+    font-size: 30px;
     color:black;
-    background-color: #d5d818 !important; width: 288px; height: 64px; border-radius: 20px;
-}
-.sticky {
-    position: fixed;
-    min-width: 1280px;
-    width: 100%;
-}
-.sticky + #content {
-    padding-top: 102px;
+    background-color: #d5d818 !important; width: 350px; height: 64px; border-radius: 20px;
 }
 a:link {
     color:none;
