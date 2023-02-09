@@ -17,6 +17,11 @@ html, body {
     overflow-x: hidden;
 }
 
+.ml {
+    position: relative;
+    margin-left: -675px;
+}
+
 #header {
     margin-left: -7px;
     border-radius: 5px;
@@ -27,6 +32,7 @@ html, body {
     margin-bottom: 60px;
     background-color: black;
     z-index: 3;
+    text-align:center
 }
 .logo {
     font-size: 48px;
@@ -53,6 +59,7 @@ html, body {
     margin-right: 300px;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 .leftblock {
     float: left;
@@ -91,6 +98,7 @@ html, body {
     margin-right: 300px;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 .title2 {
     padding-top: 75px;
@@ -199,6 +207,7 @@ html, body {
     margin-right: 300px;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 #sale1 {
     float:left;
@@ -258,6 +267,7 @@ html, body {
     padding-left: 0;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 .ordtitle {
     float:left;
@@ -290,6 +300,7 @@ html, body {
     margin-right: 300px;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 .revleftblock {
     width: 300px;
@@ -319,6 +330,7 @@ html, body {
     margin-right: 300px;
     position: relative;
     z-index: 2;
+    left: 50%;
 }
 .contleftblock {
     width: 400px;
