@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Sushtrip</title>
+    </head>
+    <body>
+        <span id="here1"></span>
+        <div id="header">
+            <div style="margin-left: -50%;">
+                <div style="display:inline-block;">
+                    <h1 class="logo">Sushi<span style="color:goldenrod">trip</span></h1>
+                    <h2><a href="#here1">Головна</a></h2>
+                    <h2><a href="#page2">Каталог</a></h2>
+                    <h2><a href="#page3">Акції</a></h2>
+                    <h2><a href="#page4">Замовити</a></h2>
+                    <h2><a href="#page5">Відгуки</a></h2>
+                    <h2><a href="#page6">Контакти</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="page1">
+            <div class="ml">
+                <div class="leftblock">
+                    <h1 class="title"><span style="color:goldenrod">Безконтактна</span><br>доставка суші та ролів<br>у Харкові та області</h1>
+                    </span>
+                    <h3 class="titledesc">
+                        Отримайте замовлення за <span style="color:goldenrod">40 хвилин</span> від найкращих
+                        кухарів міста з досвідом понад 10 років
+                    </h3>
+                    <a href="#page2" class="mainbutton">Перейти до каталогу</a>
+                    <h5>*безкоштовна доставка при замовлені від 400грн</h6>
+                </div>
+                <img src="css/img/titlepage.png" class="titleimage">
+            </div>
+        </div>
+        
+        <div id="page2">
+            <div class="ml">
+                <h1 class="title2" style="color:goldenrod">Каталог</h1>
+                <div id="block1">
+                    <img src="css/img/cat1.jpg" class="blockimg">
+                    <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол "Каліфорнія"</span>
+                        <br>Склад: Вершковий сир,<br>Авокадо, Тобіко, Крабове<br>м'ясо
+                    </div>
+                    <div class="blockw">325гр</div>
+                    <div class="blockprice">140грн</div>
+                </div>
+                <div id="block2">
+                    <img src="css/img/cat2.jpg" class="blockimg">
+                    <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол із сьомгою</span>
+                        <br>Склад: Сьомга
+                    </div>
+                    <div class="blockw">150гр</div>
+                    <div class="blockprice">80грн</div>
+                </div>
+                <form id="nextpage" method="POST" onsubmit="return showDiv();">
+                    <input type="submit" class="nextbutton" value="Перегорнути"/>
+                </form>
+                <div id="block3">
+                    <img src="css/img/cat3.jpg" class="blockimg">
+                    <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол із авокадо</span>
+                        <br>Склад: Авокадо, Вершковий сир
+                    </div>
+                    <div class="blockw">150гр</div>
+                    <div class="blockprice">60грн</div>
+                </div>
+                <div id="block4">
+                    <img src="css/img/cat4.jpg" class="blockimg">
+                    <div class="blockdesc"><span style="color:goldenrod; font-size: 25px;">Рол "Боніто"</span>
+                        <br>Склад: Сир філадельфія,<br>Сьомга, Авокадо, Огірок,<br>Стружка тунця
+                    </div>
+                    <div class="blockw">350гр</div>
+                    <div class="blockprice">180грн</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="ml">
+                <h1 class="title2" style="color:goldenrod; margin-left: 415px; padding-top: 120px;">Акції</h1>
+                <div id="sale1">
+                <img src="css/img/sale1.jpg" class="saleimage">
+                <div class="saleinfo">
+                    При<br>замовленні одного із<br>сетів<br><br>
+                    <span style="color:goldenrod; font-size: 36px;">-30%</span>
+                </div>
+                <div class="salebottom">
+                    Рол Ебі-темпура
+                </div>
+                </div>
+                <div id="sale2">
+                <img src="css/img/sale2.jpg" class="saleimage">
+                <div class="saleinfo">
+                    При<br>замовленні одного із<br>ролів<br><br>
+                    <span style="color:goldenrod; font-size: 36px;">-20%</span>
+                </div>
+                <div class="salebottom">
+                    Рол Філадельфія
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page4">
+            <div class="ml">
+                <h1 class="title2" style="color:goldenrod">Доставка з 10:00 до 24:00</h1>
+                <div><img src="css/img/delivery.png" style="width: 1366px; height: 490px; float:left;">
+                    <div class="ordtitle">оформлення<br>замовлення</div>
+                    <div class="orddesc">Оформіть замовлення по<br>телефону або заповніть<br>форму на сайті</div>
+                    <div class="ordtitle" style="margin-left: 570px;">оплата зручним<br>способом</div>
+                    <div class="orddesc" style="margin-left: 570px;">Оплатіть онлайн або<br>готівкою після доставки</div>
+                    <div class="ordtitle" style="margin-left: 1020px;">безкоштовна<br>доставка</div>
+                    <div class="orddesc" style="margin-left: 1020px;">Безкоштовна доставка<br>по Харкову та області<br>від 400 грн</div>
+                    <div style="position:absolute; margin-top: 0px; margin-left: 530px;">
+                        <a href="#page6" class="mainbutton" style="width:280px; height:60px; font-size: 32px; position:relative;">Хочу замовити</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page5">
+            <div class="ml">
+                <h1 class="title2" style="color:goldenrod">Відгуки</h1>
+                <div class="revleftblock">
+                    <img src="css/img/circle.png" class="circle">
+                    <span style="position: absolute; float: left; margin-left: 70px; margin-top: 20px; font-size: 36px;">Василь</span>
+                    <img src="css/img/circle.png" class="circle" style="margin-top: 140px;">
+                    <span style="position: absolute; float: left; margin-left: 70px; margin-top: 140px; font-size: 36px;">Ольга</span>
+                    <img src="css/img/circle.png" class="circle" style="margin-top: 260px;">
+                    <span style="position: absolute; float: left; margin-left: 70px; margin-top: 260px; font-size: 36px;">Анна</span>
+                    <img src="css/img/circle.png" class="circle" style="margin-top: 380px;">
+                    <span style="position: absolute; float: left; margin-left: 70px; margin-top: 380px; font-size: 36px;">Дмитро</span>
+                </div>
+                <div class="revrightblock">
+                    <div>
+                        <img src="css/img/star.png" class="circle" style="width: 125px; height: 25px;">
+                        <h3 style="float:left; position: absolute; margin-top: 50px; font-size:24px;">Замовляв суші, все сподобалось</h3>
+                    </div>
+                    <div style="margin-top: 120px;">
+                        <img src="css/img/star.png" class="circle" style="width: 125px; height: 25px;">
+                        <h3 style="float:left; position: absolute; margin-top: 50px; font-size:24px;">Доставка швидка, все смачно</h3>
+                    </div>
+                    <div style="margin-top: 240px;">
+                        <img src="css/img/star.png" class="circle" style="width: 125px; height: 25px;">
+                        <h3 style="float:left; position: absolute; margin-top: 50px; font-size:24px;">Замовляла роли, швидка доставка,<br>швидко відповідають</h3>
+                    </div>
+                    <div style="margin-top: 360px;">
+                        <img src="css/img/star.png" class="circle" style="width: 125px; height: 25px;">
+                        <h3 style="float:left; position: absolute; margin-top: 50px; font-size:24px;">Замовляв суші, дуже смачно</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page6">
+            <div class="ml">
+                <h1 class="title2" style="color:goldenrod; margin-left: 320px;">Наші контакти</h1>
+                <div class="contleftblock">
+                    <span style="width: 400px; height: 100px; font-size: 24px; text-align: center; position: absolute;">
+                        Залишіть заявку і ми відповімо<br>на ваші запитання протягом<br>10 хвилин
+                    </span>
+                    <form id="contactform" method="POST" onsubmit="return success();">
+                        <input id="contactform" placeholder="Ваше ім'я">
+                        <input id="contactform2" style="margin-top:200px;" placeholder="Ваше номер телефону">
+                        <input type="submit" class="nextbutton" style="width: 400px; height: 64px; margin-left: 0; margin-top:300px;" value="Відправити запит">
+                    </form>
+                    <img src="css/img/success.png" id="successicon">
+                </div>
+                <div class="contrightblock">
+                    <div style="width: 450px; height: 350px; float:left; position: absolute;"><iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=49.99651223232796,%2036.23333930969239+(Sushitrip)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe></div>
+                    <div style="width: 450px; height: 35px; text-align: center; float:left; position: absolute; margin-top: 355px; font-size:30px;">+380 (050) 251 4536</div>
+                    <div class="links"><a href="https://facebook.com/" target="_blank" style="width: 55px; height: 55px;"><img src="css/img/facebook.png" style="width: 55px; height: 55px;"></a></div>
+                    <div class="links" style="margin-left: 200px;"><a href="https://www.instagram.com/" target="_blank" style="width: 55px; height: 55px;"><img src="css/img/instagram.png" style="width: 55px; height: 55px;"></a></div>
+                    <div class="links" style="margin-left: 380px;"><a href="https://web.telegram.org/" target="_blank" style="width: 55px; height: 55px;"><img src="css/img/telegram.png" style="width: 55px; height: 55px;"></a></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/catalogue.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/scroll.js"></script>
+    </body>
+</html>
